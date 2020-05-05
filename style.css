@@ -1,0 +1,164 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff2cc;
+  }
+  
+  
+  header {
+    width: 100%;
+    height: 140px;
+    background: black;
+    display: flex;
+    align-items: center;
+    /*position: fixed;*/
+    margin-bottom: 1px;
+    padding-left: 70px;
+  }
+  a {
+    font-size: 24pt;
+    color: gray;
+    margin: 100px;
+    text-decoration: none;
+   }
+  a:visited {
+    color: yellow;
+  }
+  .greenfox {
+    font-size: 14pt;
+    color: #cce6ff;
+    margin: 0px
+  }
+  a.greenfox:visited {
+    color: #00264d;
+  }
+  .al{
+    font-size: 14pt;
+    color: #00264d;
+    margin: 0px;
+  }
+  a.al:visited{
+    color:#00264d;
+  }
+  .freecc{
+    font-size: 14pt;
+    color: #00264d;
+    margin: 0px;
+  }
+  a.freecc:visited {
+    color: #00264d;
+  }
+  a.cs50 {
+    font-size: 14pt;
+    color: #00264d;
+    margin: 0px;
+  }
+  a.cs50:hovered{
+    color: #66ff66;
+  }
+  
+  section {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+  }
+  h3, h4{
+    font-family: 'Domine', serif;
+    color: #222;
+  }
+  .hi{
+    font-family: 'Domine', serif;
+    color: grey;
+  }
+  .Anakin{
+    font-family: 'Domine', serif;
+    color: grey;
+  }
+  div.container{
+  border-top: 1px solid black;
+  background-image:url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSd1cjdB2Ehzr7MeT3oJX3lhPY-aS40-XcgSvdeIiFZT4x3y2cb%26s&sp=1588072821T43f62d2325d70839054ceedc5cac864a1f528cb303a23bd0091201fb225a94fe");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 380px;
+   /* position: relative;*/
+    text-alignment: center;
+    color: pink;
+  }
+  .hi{
+    margin-left: 200px;
+    margin-top: 250px;
+    line-height: 3px;
+    color: black;
+  }
+  .Anakin{
+    margin-left: 200px;
+    line-height: 1px;
+    color: black;
+    font-size: 48px;
+  }
+  
+  div.textlocation {
+   /* position: absolute;
+    top: 140%;
+    right: 35%;
+    transform: translate(-50%,-50%);*/
+    color: black;
+    }
+  .left {
+    width: 50%;
+  }
+  .right {
+    width: 50%;
+  }
+  div.quotes {
+    height: 300px;
+  }
+  blockquote {
+    display: flex;
+    background: grey;
+    height: 100px;
+    color: white;
+    font-size: 28px;
+    margin-top: 50px;
+    border-radius: 10px;
+    }
+  blockquote p {
+   color: white;
+    
+      
+   /*position: absolute;*/  
+   /* transform: translate(-50%,-50%);*/
+  }
+  blockquote::before{
+    content:'\201c';
+    font-size: 68px;
+    }
+  gi
+  footer.citation{
+    border-top: none;
+    font-size: 12pt;
+  }
+  cite{
+   font-family: 'Merriweather', serif; 
+   font-size: 10pt;
+  }
+  }
+  Header{
+    height:auto;
+    width: 100%;
+    font-family: 'Domine', serif;
+    color: black;
+  }
+  footer{
+    border-top: 0px black solid;
+  }
+  /* p.subtitle {
+  font-family: 'Merriweather', serif;
+  } it was supposed to be for subtitles there are none*/
+  
